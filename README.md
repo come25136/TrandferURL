@@ -1,4 +1,4 @@
-## /users/config.php の内容
+## フォルダ内にconfig.phpを作成してください
 ---
 ```lang-php
 <?php
