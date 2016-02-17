@@ -52,6 +52,8 @@ if (!isset($_GET['PIN']) || $_GET['PIN'] === '') {
             header("Location: $url");
             exit;
         }
+    } else {
+        $em = "数字4桁のPINコードを入力してください";
     }
 }
  ?>
